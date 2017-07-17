@@ -1,0 +1,67 @@
+{
+  "name": "content-bot-v2",
+  "version": "2.5.0",
+  "description": "A simple and clean Discord bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp && node dist",
+    "test": "mocha --compilers js:babel-core/register test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yeager-j/content-bot.git"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "content-bot": "dist/index.js"
+  },
+  "author": "Jackson Yeager",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yeager-j/content-bot/issues"
+  },
+  "dependencies": {
+    "babel-eslint": "^7.1.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2015-node6": "^0.4.0",
+    "chai": "^4.0.2",
+    "chai-as-promised": "^7.1.1",
+    "common-tags": "^1.4.0",
+    "del": "^2.2.0",
+    "discord.js": "^11.1.0",
+    "discord.js-commando": "^0.9.0",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-config-google": "^0.8.0",
+    "eslint-plugin-import": "^2.6.1",
+    "fast-async": "^6.2.0",
+    "gulp": "gulpjs/gulp#4.0",
+    "gulp-babel": "^6.1.0",
+    "gulp-eslint": "^3.0.0",
+    "gulp-exec": "^2.1.0",
+    "gulp-sourcemaps": "^2.4.0",
+    "mocha": "^3.4.2",
+    "mocha-as-promised": "^2.0.0",
+    "mongodb": "^2.2.29",
+    "mongoose": "^4.11.1",
+    "opusscript": "0.0.3",
+    "request-promise": "^4.2.1",
+    "simple-youtube-api": "^2.1.0",
+    "sqlite": "^2.8.0",
+    "underscore": "^1.8.3",
+    "xml2js": "^0.4.17",
+    "ytdl-core": "^0.14.4"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "babel": {
+    "presets": [
+      "es2015-node6"
+    ],
+    "plugins": [
+      "fast-async"
+    ]
+  }
+}

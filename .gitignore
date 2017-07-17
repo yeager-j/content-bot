@@ -1,0 +1,6 @@
+*.iml
+secret.json
+node_modules/
+.idea/
+dist/
+.DS_Store
